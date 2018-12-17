@@ -135,7 +135,7 @@ sub get_run_params {
 
     my $global_opts = {
         deadline => $deadline,
-        idle_time_limit => 1,
+        idle_time_limit => 2,
         stdout => '*null',
     };
 
